@@ -10,7 +10,11 @@ Company System is a demo application that works with three build tools:
 1. Install IBMi Repos =>   `yum install ibmi-repos`
 2. Update yum packages => `yum update`
 3. Install BOB => `yum install bob`
-4. Create a library to save the build `system "CRTLIB LIB(CMPSYS) TEXT('Better Object Builder test project')"`
+4. Create a library to save the build => `system "CRTLIB LIB(CMPSYS) TEXT('Better Object Builder test project')"`
+5. Clone the repository `git clone https://github.com/ravisankar-PIO/cmpsys`
+6. Go to the cloned repo directory `cd cmpsys`
+7. Set the env variable to point the library that we just created `export lib1=CMPSYS`
+8. Run the build using `makei build`
 
 TODO.
 
