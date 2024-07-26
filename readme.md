@@ -13,7 +13,7 @@ Company System is a demo application that works with three build tools:
 4. Create a library to save the build => `system "CRTLIB LIB(CMPSYS) TEXT('Better Object Builder test project')"`
 5. Clone the repository `git clone https://github.com/ravisankar-PIO/cmpsys`
 6. Go to the cloned repo directory `cd cmpsys`
-7. Set the env variable to point the library that we just created `export lib1=CMPSYS`
+7. Set the env variable to point the library that we just created `export CURLIB=CMPSYS`
 8. Run the build using `makei build`
 
 TODO.
