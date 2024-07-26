@@ -7,6 +7,10 @@ Company System is a demo application that works with three build tools:
 * ARCAD Builder from IBM i Modernization Engine for Lifecycle Integration (Merlin)
 
 ### Setup
+1. Install IBMi Repos =>   `yum install ibmi-repos`
+2. Update yum packages => `yum update`
+3. Install BOB => `yum install bob`
+4. Create a library to save the build `system "CRTLIB LIB(CMPSYS) TEXT('Better Object Builder test project')"`
 
 TODO.
 
