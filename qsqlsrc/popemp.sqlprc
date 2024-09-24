@@ -7,6 +7,7 @@
 -- Note: If you're getting the error HTTP_GET in SYSTOOLS type *N not found, then you may
 --       use SYSTOOLS.HTTPGETCLOB instead. You may find both the api's in this source.
 -- COMMENT ADDED IN GREEN SCREEN
+-- COMMENT2 ADDED IN GREEN SCREEN
 -------------------------------------------------------------------------------
 create or replace procedure popemp(
   in  Nationality char(2) default 'gb'
